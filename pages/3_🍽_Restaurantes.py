@@ -10,6 +10,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_folium import folium_static
 import numpy as np
+from datetime import datetime
 
 #==============================================
 # Funções
@@ -58,7 +59,7 @@ def clean_code( df ):
     df['multiple_deliveries'] = df['multiple_deliveries'].astype(int)
 
     # Alterando variáveis de objeto para data:
-    df['Order_Date'] = pd.to_datetime(df['Order_Date'], forma ='%d-%m-%Y')
+    df['Order_Date'] = pd.to_datetime(df['Order_Date'], format='%d-%m-%Y')
 
     # Limpando a coluna Time_taken:
     df['Time_taken(min)'] = df['Time_taken(min)'].apply(lambda x: x.split('(min)')[1])
@@ -217,9 +218,9 @@ st.sidebar.markdown("""___""")
 st.sidebar.markdown('## Selecione uma data limite')
 
 date_slider = st.sidebar.slider('Até qual valor?',
-                                value=pd.datetime(2022, 4, 13),
-                                min_value=pd.datetime(2022, 2, 11),
-                                max_value=pd.datetime(2022, 4, 6),
+                                value=datetime(2022, 4, 13),
+                                min_value=datetime(2022, 2, 11),
+                                max_value=datetime(2022, 4, 6),
                                 format='DD-MM-YYYY')
 
 st.sidebar.markdown("""___""")
