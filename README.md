@@ -4,15 +4,17 @@
 
 Este projeto foi desenvolvido como parte do curso de Python da Comunidade DS para estudo da linguagem python voltada à análise de dados e do framework streamlit.
 
+[Acesse aqui o dashboard](https://lm-curry-company.streamlit.app/).
+
 ### Índice
 
-* [1. Problema de negócio]
-* [2. Premissas assumidas para a análise]
-* [3. Estratégias da solução]
-* [4. Top 3 Insights de dados]
-* [5. O produto final do projeto]
-* [6. Conclusão]
-* [7. Próximos passos]
+* [1. Problema de negócio](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#1-problema-de-neg%C3%B3cio)
+* [2. Premissas assumidas para a análise](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#2-premissas-assumidas-para-a-an%C3%A1lise)
+* [3. Estratégias da solução](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#3-estrat%C3%A9gias-da-solu%C3%A7%C3%A3o)
+* [4. Top 3 Insights de dados](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#4-top-3-insights-de-dados)
+* [5. O produto final do projeto](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#5-o-produto-final-do-projeto)
+* [6. Conclusão](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#6-conclus%C3%A3o)
+* [7. Próximos passos](https://github.com/luisamuzzi/curry_company?tab=readme-ov-file#7-pr%C3%B3ximos-passos)
 
 ### 1. Problema de negócio
 
